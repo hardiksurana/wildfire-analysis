@@ -1,0 +1,7 @@
+*.sqlite
+
+venv/
+
+data/wildfire_occurences.csv
+data/wildfire_weather_aggregated_data.csv
+data/wildfire_weather_data.csv
