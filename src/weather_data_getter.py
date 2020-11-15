@@ -135,7 +135,7 @@ class WeatherDataGetter:
         :param wildfire_ID:
         :param days: TODO: for n days. Currently will only query for a single day
         :param stids: STIDs
-        :return: None
+        :return: station data
         """
         radius_param = str(lat) + ',' + str(lon) + ',' + str(radius)
         vars = ['air_temp', 'relative_humidity', 'wind_speed', 'precip_accum']
